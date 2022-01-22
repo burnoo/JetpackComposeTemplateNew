@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-and-release:
+  build-and-upload:
     runs-on: macos-latest
     steps:
       - name: Checkout
