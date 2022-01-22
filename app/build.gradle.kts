@@ -62,8 +62,10 @@ configurations.all {
 dependencies {
 
     implementation(project(":theme"))
+    implementation(project(":features:home"))
     implementation(libs.jetpackCompose.material3)
     implementation(libs.jetpackCompose.uiTooling.preview)
+    implementation(libs.jetpackCompose.navigation)
     implementation(libs.activity.compose)
     debugImplementation(libs.jetpackCompose.uiTooling)
 

@@ -7,4 +7,5 @@ dependencyResolutionManagement {
 }
 
 include(":app")
+include(":features:home")
 include(":theme")

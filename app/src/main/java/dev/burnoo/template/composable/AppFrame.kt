@@ -1,4 +1,4 @@
-package dev.burnoo.template.ui.composable.app
+package dev.burnoo.template.composable
 
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
