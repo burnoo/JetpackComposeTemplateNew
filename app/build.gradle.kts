@@ -30,17 +30,21 @@ android {
         }
     }
 
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
-    }
-
     composeOptions {
         kotlinCompilerExtensionVersion = libs.versions.jetpackComposeCompiler.get()
     }
 
     buildFeatures {
         compose = true
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
+
+    kotlinOptions {
+        jvmTarget = "11"
     }
 }
 
@@ -57,8 +61,7 @@ configurations.all {
 
 dependencies {
 
-    implementation(libs.material)
-    implementation(libs.jetpackCompose.ui)
+    implementation(project(":theme"))
     implementation(libs.jetpackCompose.material3)
     implementation(libs.jetpackCompose.uiTooling.preview)
     implementation(libs.activity.compose)

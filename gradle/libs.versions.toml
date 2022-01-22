@@ -15,7 +15,6 @@ gradleVersionsPlugin = "0.41.0"
 gradle-kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 gradle-android = { module = "com.android.tools.build:gradle", version.ref = "gradleAndroid" }
 material = { module = "com.google.android.material:material", version.ref = "material" }
-jetpackCompose-ui = { module = "androidx.compose.ui:ui", version.ref = "jetpackCompose" }
 jetpackCompose-material3 = { module = "androidx.compose.material3:material3", version.ref = "jetpackComposeMaterial3" }
 jetpackCompose-uiTooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "jetpackCompose" }
 jetpackCompose-uiTooling-preview = { module = "androidx.compose.ui:ui-tooling", version.ref = "jetpackCompose" }
