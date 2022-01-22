@@ -9,6 +9,11 @@ Template project for Android Jetpack Compose applications.
 - Instrumented Tests: [Compose Testing](https://developer.android.com/jetpack/compose/testing)
 - Unit Tests: [JUnit4](https://junit.org/junit4/) + [AssertJ](https://assertj.github.io/doc/)
 - [gradle-versions-plugin](https://github.com/ben-manes/gradle-versions-plugin)
+- [Renovate Bot](https://www.whitesourcesoftware.com/free-developer-tools/renovate/)
+
+## GitHub Actions
+- [Run Tests (unit + UI)](.github/workflows/tests.yml)
+- [Build Debug APK](.github/workflows/build-debug-apk.yml)
 
 ## Screenshots
 (Material3 default without Dynamic Color)
