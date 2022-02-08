@@ -15,10 +15,8 @@ tasks.withType<KotlinCompile> {
     }
 }
 
-val libs = extensions.getByType<VersionCatalogsExtension>().named("libs")
-
 dependencies {
 
-    implementation(libs.findLibrary("gradle.android").get())
-    implementation(libs.findLibrary("gradle.kotlin").get())
+    implementation(libs.gradle.android)
+    implementation(libs.gradle.kotlin)
 }
