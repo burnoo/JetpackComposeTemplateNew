@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    compileSdk = 31
+    compileSdk = 32
 
     defaultConfig {
         minSdk = 24
-        targetSdk = 31
+        targetSdk = 32
 
         applicationId = "dev.burnoo.template"
         versionCode = 1
