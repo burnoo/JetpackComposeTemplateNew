@@ -1,21 +1,24 @@
 package dev.burnoo.template
 
-import androidx.compose.material3.Text
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.junit4.createComposeRule
+import dev.burnoo.template.composable.AppRouter
+import dev.burnoo.template.ui.theme.AppTheme
 import org.junit.Rule
 import org.junit.Test
 
-class ExampleComposeTest {
+class ComposeTest {
 
     @get:Rule
     val composeRule = createComposeRule()
 
     @Test
-    fun exampleTest() {
-        val text = "Hello Compose Test!"
+    fun shouldDisplayHelloText() {
+        val text = "Hello @burnoo"
         composeRule.setContent {
-            Text(text)
+            AppTheme {
+                AppRouter()
+            }
         }
 
         composeRule.onNode(hasText(text)).assertExists()

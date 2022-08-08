@@ -12,7 +12,7 @@ private val DarkColorPalette = darkColorScheme()
 private val LightColorPalette = lightColorScheme()
 
 @Composable
-fun TemplateTheme(
+fun AppTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable () -> Unit
 ) {
