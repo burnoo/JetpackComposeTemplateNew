@@ -19,4 +19,5 @@ dependencies {
 
     implementation(libs.gradle.android)
     implementation(libs.gradle.kotlin)
+    implementation(files(libs.javaClass.superclass.protectionDomain.codeSource.location))
 }

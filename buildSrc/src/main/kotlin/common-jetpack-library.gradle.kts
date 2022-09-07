@@ -1,17 +1,16 @@
 @file:Suppress("UnstableApiUsage")
 
-import org.gradle.api.artifacts.VersionCatalogsExtension
-import org.gradle.kotlin.dsl.getByType
+import org.gradle.accessors.dm.LibrariesForLibs
 
 plugins {
     id("common-android-library")
 }
 
-val libs: VersionCatalog = extensions.getByType<VersionCatalogsExtension>().named("libs")
+val libs = the<LibrariesForLibs>()
 
 android {
     composeOptions {
-        kotlinCompilerExtensionVersion = libs.findVersion("jetpackComposeCompiler").get().toString()
+        kotlinCompilerExtensionVersion = libs.versions.jetpackComposeCompiler.get()
     }
 
     buildFeatures {
