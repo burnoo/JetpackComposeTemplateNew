@@ -10,7 +10,7 @@ activityCompose = "1.6.0"
 junit = "4.13.2"
 assertJ = "3.23.1"
 testAndroidCore = "1.4.0"
-gradleVersionsPlugin = "0.42.0"
+gradleVersionsPlugin = "0.43.0"
 
 [libraries]
 gradle-kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
