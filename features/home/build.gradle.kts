@@ -3,7 +3,7 @@ plugins {
 }
 
 dependencies {
-    implementation(project(":design"))
+    implementation(project(":core:designsystem"))
     implementation(libs.jetpackCompose.material3)
     implementation(libs.jetpackCompose.navigation)
     implementation(libs.jetpackCompose.uiTooling.preview)

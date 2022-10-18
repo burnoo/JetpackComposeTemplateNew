@@ -10,4 +10,4 @@ dependencyResolutionManagement {
 
 include(":app")
 include(":features:home")
-include(":design")
+include(":core:designsystem")
