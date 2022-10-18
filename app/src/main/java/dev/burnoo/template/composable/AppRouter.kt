@@ -3,7 +3,7 @@ package dev.burnoo.template.composable
 import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
-import dev.burnoo.template.features.home.homeRouter
+import dev.burnoo.template.feature.home.homeRouter
 
 @Composable
 fun AppRouter() {

@@ -1,4 +1,4 @@
-package dev.burnoo.template.features.home
+package dev.burnoo.template.feature.home
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize

@@ -1,4 +1,4 @@
-package dev.burnoo.template.features.home
+package dev.burnoo.template.feature.home
 
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
