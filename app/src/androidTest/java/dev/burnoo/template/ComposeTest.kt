@@ -3,7 +3,7 @@ package dev.burnoo.template
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.junit4.createComposeRule
 import dev.burnoo.template.composable.AppRouter
-import dev.burnoo.template.ui.theme.AppTheme
+import dev.burnoo.template.core.designsystem.AppTheme
 import org.junit.Rule
 import org.junit.Test
 

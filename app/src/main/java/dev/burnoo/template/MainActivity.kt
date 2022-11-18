@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import dev.burnoo.template.composable.AppRouter
-import dev.burnoo.template.ui.theme.AppTheme
+import dev.burnoo.template.core.designsystem.AppTheme
 
 class MainActivity : ComponentActivity() {
 
