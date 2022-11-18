@@ -26,7 +26,7 @@ tasks.withType<DependencyUpdatesTask> {
     }
 }
 
-fun getStabilityLevel(version: String) : Int {
+fun getStabilityLevel(version: String): Int {
     val v = version.toUpperCase()
     return when {
         v.contains("ALPHA") -> 0

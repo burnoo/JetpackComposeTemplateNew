@@ -16,13 +16,13 @@ import androidx.compose.ui.tooling.preview.Preview
 @Composable
 internal fun MainScreen() {
     Scaffold(
-        topBar = { TopBar() }
+        topBar = { TopBar() },
     ) { padding ->
         Box(
             contentAlignment = Alignment.Center,
             modifier = Modifier
                 .fillMaxSize()
-                .padding(padding)
+                .padding(padding),
         ) {
             HelloButton()
         }
