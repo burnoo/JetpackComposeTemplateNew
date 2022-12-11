@@ -69,8 +69,8 @@ dependencies {
     implementation(libs.activity.compose)
     debugImplementation(libs.jetpackCompose.uiTooling)
 
-    testImplementation(libs.test.junit)
-    testImplementation(libs.test.assertJ)
+    testImplementation(kotlin("test"))
+    testImplementation(libs.kotest.assertions)
 
     debugImplementation(libs.jetpackCompose.uiTest.manifest)
     androidTestImplementation(libs.jetpackCompose.uiTest.junit)
