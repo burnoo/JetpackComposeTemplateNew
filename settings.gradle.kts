@@ -19,6 +19,6 @@ dependencyResolutionManagement {
 
 include(":app")
 
-include(":feature:home")
-
 include(":core:designsystem")
+
+include(":ui:home")
