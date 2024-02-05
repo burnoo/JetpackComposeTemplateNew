@@ -7,7 +7,7 @@ jetpackComposeCompiler = "1.4.0-alpha02"
 jetpackComposeMaterial3 = "1.0.1"
 jetpackComposeNavigation = "2.5.3"
 activityCompose = "1.6.1"
-gradleVersionsPlugin = "0.44.0"
+gradleVersionsPlugin = "0.51.0"
 testAndroidCore = "1.5.0"
 kotest = "5.5.4"
 
