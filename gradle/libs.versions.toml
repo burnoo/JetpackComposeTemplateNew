@@ -9,7 +9,7 @@ jetpackComposeNavigation = "2.5.3"
 activityCompose = "1.6.1"
 gradleVersionsPlugin = "0.44.0"
 testAndroidCore = "1.5.0"
-kotest = "5.5.4"
+kotest = "5.9.1"
 
 [libraries]
 gradle-kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
