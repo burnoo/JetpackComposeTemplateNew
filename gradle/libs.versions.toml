@@ -2,7 +2,7 @@
 kotlin = "1.7.21"
 gradleAndroid = "7.3.1"
 material = "1.7.0"
-jetpackCompose = "1.3.2"
+jetpackCompose = "1.7.4"
 jetpackComposeCompiler = "1.4.0-alpha02"
 jetpackComposeMaterial3 = "1.0.1"
 jetpackComposeNavigation = "2.5.3"
